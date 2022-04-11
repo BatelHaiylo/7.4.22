@@ -1,0 +1,77 @@
+body{
+    background-color: cadetblue;
+}
+#piano{
+    height: 880px;
+    width: 400px;
+    display: inline-block;
+}
+#whiteKeybords{
+    display: inline-block;
+    margin-top: 40%;
+}
+.white{
+    display: inline-block;
+    background-color: white;
+    border: 2px solid #000000;
+    border-radius: 22px;
+    width: 400px;
+    height: 80px;
+    margin: 0px;
+}
+#blackKeybords{
+    display: absolute;
+    height: 880px;
+    width: 200px;
+    margin-top: -913px;
+}
+.black{
+    display: inline-block;
+    background-color: #000000;
+    border: 5% solid #000000;
+    border-radius: 12px;
+    margin: 2px;
+    width: 200px;
+    height: 80px;
+}
+#keyNote1{
+    margin-top: -230%;
+    margin-left: 88%;
+    position: relative;
+}
+.noteW{
+    color: #ffffff;
+    flex-direction: column;
+    transition-property: all;
+    transition-duration: 10s;
+}
+.noteW:hover{
+    color: #000000;
+}
+hr{
+    border: none;
+    padding: 40%;
+}
+.noteSpace{
+    border: none;
+    padding: 28px;
+}
+#keyNote2{
+    margin-top: -219%;
+    margin-left: 40%;
+}
+.noteB{
+    height: 40px;
+    width: 40px;
+    color: #000000;
+    flex-direction: column;
+    transition-property: all;
+    transition-duration: 10s;
+}
+.noteB:hover{
+    color: #ffffff;
+}
+.BnoteSpace{
+    border: none;
+    padding: 45px;
+}
